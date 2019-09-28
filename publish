@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker login --username `whoami`
+docker push `cat $1/tagname`
