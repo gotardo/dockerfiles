@@ -1,4 +1,4 @@
 #!/bin/bash
 
 echo "Building `cat $1/tagname`"
-docker build $1 -t `cat $1/tagname`
+docker build $1 -t `cat $1/tagname` --no-cache
