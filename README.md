@@ -33,6 +33,18 @@ By convention, each directory contains the needed files to build an image, at le
 
 ## Available images
 
+### php74-runner
+
+A PHP 7.4 runtime environment based on `php:7-fpm`.
+
+Find this in [DockerHub](https://cloud.docker.com/repository/docker/gotardo/php74-runner).
+
+### php74-builder
+
+A PHP 7.3 build environment based on `gotardo/php74-runner`.
+
+Find this in [DockerHub](https://cloud.docker.com/repository/docker/gotardo/php74-builder).
+
 ### php73-runner
 
 A PHP 7.3 runtime environment based on `php:7-fpm`.
