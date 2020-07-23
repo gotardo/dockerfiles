@@ -33,15 +33,23 @@ By convention, each directory contains the needed files to build an image, at le
 
 ## Available images
 
+### php8-runner
+
+A PHP 8 runtime environment based on `devilbox/php-fpm-8.0`.
+
+### php8-builder
+
+A PHP8 build environment based on `gotardo/php8-runner`.
+
 ### php74-runner
 
-A PHP 7.4 runtime environment based on `php:7-fpm`.
+A PHP 7.4 runtime environment based on `devilbox/php-fpm-7.4:latest`.
 
 Find this in [DockerHub](https://cloud.docker.com/repository/docker/gotardo/php74-runner).
 
 ### php74-builder
 
-A PHP 7.3 build environment based on `gotardo/php74-runner`.
+A PHP 7.4 build environment based on `gotardo/php74-runner`.
 
 Find this in [DockerHub](https://cloud.docker.com/repository/docker/gotardo/php74-builder).
 
