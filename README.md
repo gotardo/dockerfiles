@@ -33,6 +33,18 @@ By convention, each directory contains the needed files to build an image, at le
 
 ## Available images
 
+### php84-runner
+
+A PHP 8.4 runtime environment based on `php:8.4-cli`.
+
+Find this in [DockerHub](https://cloud.docker.com/repository/docker/gotardo/php84-runner).
+
+### php84-builder
+
+A PHP 8.4 build environment based on `gotardo/php84-runner`.
+
+Find this in [DockerHub](https://cloud.docker.com/repository/docker/gotardo/php84-builder).
+
 ### php74-runner
 
 A PHP 7.4 runtime environment based on `php:7-fpm`.
